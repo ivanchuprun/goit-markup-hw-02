@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>goit-markup-hw-01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
-    <header>
+<body>
+    <header class="header-page">
         <!--Меню навігації-->
-        <nav>
-            <a href="./index.html" class="head-logo"> WebStudio</a>
-            <ul>
-                <li><a href="studio" class="link-nav">Studio</a></li>
-                <li><a href="portfolio" class="link-nav">Portfolio</a></li>
-                <li><a href="contacts" class="link-nav">Contacts</a></li>
+       <nav class="nav-page">
+            <a href="./index.html" class="head-logo"> Web <span class="logo-color">Studio</span></a>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-item-link" href="./index.html">Studio</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="">Contacts</a></li>
             </ul>
         </nav>
         <!--Емайл і телефон-->
         <address class="address">
-            <ul>
-                <li><a href="mailto:info@devstudio.com" class="email" style="color: #434455;">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111" class="tel" style="color: #434455;">+11 (000) 111-11-11</a></li>
+            <ul class="address-list">
+                <li class="address-item"><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
+                <li class="address-item"><a href="tel:+110001111111" class="address-link">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
@@ -30,15 +35,14 @@
             <button type="button" class="page-title-button">Order Service</button>
         </section>
         <!--Виробнича інформація компанії-->
-        <section>
-            <h2>Section1</h2>
-            <ul>
-                <li><h3>Strategy</h3><p>Our goal is to identify the business
+        <section class="section-page">
+            <ul class="section-list">
+                <li class="section-item"><h3 class="section-item-list">Strategy</h3><p class="section-text">Our goal is to identify the business
                     problem to walk away with the perfect and creative solution.</p></li>
-                <li><h3>Punctuality</h3><p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
-                <li><h3>Diligence</h3><p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p></li>
-                <li><h3>Technologies</h3><p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>
-                </ul>
+                <li class="section-item"><h3 class="section-item-list">Punctuality</h3><p class="section-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
+                <li class="section-item"><h3 class="section-item-list">Diligence</h3><p class="section-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p></li>
+                <li class="section-item"><h3 class="section-item-list">Technologies</h3><p class="section-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>
+            </ul>
         </section>
         <!--Працівники-->
         <section>
@@ -75,10 +79,10 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <!--Підвал сторінки-->
-<a href="./index.html">WebStudio</a>
-<p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+     <a class="footer-title" href="./index.html">Web<span class="footer-title-color">studio</span></a>
+     <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
 </body>
 </html>
