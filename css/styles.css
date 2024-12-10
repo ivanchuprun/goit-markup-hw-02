@@ -99,6 +99,25 @@ background-color: #4d5ae5;
     background-color: #404bbf;
 }
 
+.section-page {
+background-color: #F4F4FD;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+.section-list {
+background-color: #FFFFFF;
+}
+.section-item {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
 .section-item-list {
 font-weight: 500;
 font-size: 20px;
