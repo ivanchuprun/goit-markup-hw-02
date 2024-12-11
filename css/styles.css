@@ -98,39 +98,92 @@ background-color: #4d5ae5;
     color: #fff;
     background-color: #404bbf;
 }
-
+/* Секція */
 .section-page {
-background-color: #F4F4FD;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
 }
 .section-list {
-background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .section-item {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    flex: 1 1 calc(50% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .section-item-list {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+    text-transform: uppercase;
 }
 .section-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+/* Секція команди */
+.team-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+.team-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #222;
+}
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.team-member {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.team-member-photo {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+.team-member-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #111;
+}
+.team-member-role {
+    font-size: 16px;
+    color: #666;
 }
 
 .footer {
