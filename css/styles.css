@@ -138,25 +138,26 @@ background-color: #4d5ae5;
 /* Секція команди */
 .team-section {
     padding: 40px;
-    background-color: #f4f4f4;
+    background-color: #F4F4FD;
     text-align: center;
     font-family: 'Arial', sans-serif;
     color: #333;
 }
 .team-title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: #222;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .team-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .team-member {
     background-color: #fff;
@@ -169,21 +170,23 @@ background-color: #4d5ae5;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .team-member-photo {
-    border-radius: 50%;
-    margin-bottom: 15px;
-    width: 100%;
-    height: auto;
-    max-width: 200px;
+    background: url("path_to_image");
 }
 .team-member-name {
+    font-weight: 500;
     font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
-    color: #111;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .team-member-role {
+    font-weight: 400;
     font-size: 16px;
-    color: #666;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 .footer {
