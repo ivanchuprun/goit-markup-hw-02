@@ -72,7 +72,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
+/* Секція 1 */
 .section-page-title {
     background-color: #2e2f42;
 }
@@ -98,44 +98,48 @@ background-color: #4d5ae5;
     color: #fff;
     background-color: #404bbf;
 }
-/* Секція */
-.section-page {
+/* Секція 2 */
+.features-section {
     padding: 40px;
     background-color: #f9f9f9;
     font-family: 'Arial', sans-serif;
     color: #333;
+    text-align: center;
 }
-.section-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+.features-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
-.section-item {
-    flex: 1 1 calc(50% - 20px);
+.features-item {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.section-item-list {
+.features-title {
+    font-weight: 500;
     font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #222;
-    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.section-text {
+.features-description {
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.6;
-    color: #666;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-/* Секція команди */
+/* Секція 3 */
 .team-section {
     padding: 40px;
     background-color: #F4F4FD;
@@ -190,15 +194,17 @@ background-color: #4d5ae5;
     color: #434455;
 }
 
-/* Секція команди */
+/* Секція 4 */
 .portfolio-section {
+
 }
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .portfolio-list {
