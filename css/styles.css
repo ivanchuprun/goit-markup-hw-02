@@ -90,7 +90,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: #4d5ae5;
 }
 .page-title-button:hover,
@@ -100,7 +99,6 @@ background-color: #4d5ae5;
 }
 /* Секція 2 */
 .features-section {
-    padding: 40px;
     background-color: #f9f9f9;
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -108,40 +106,41 @@ background-color: #4d5ae5;
 }
 .features-list {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
 }
+.features-list > li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
 .features-item {
     background-color: #fff;
-    padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 280px;
     text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.features-title {
+.features-list > li:hover {
+    transform: translateY(-5px);
+}
+.features-list > li > h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.features-description {
+.features-list > li > p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 /* Секція 3 */
 .team-section {
-    padding: 40px;
     background-color: #F4F4FD;
     text-align: center;
     font-family: 'Arial', sans-serif;
@@ -166,10 +165,8 @@ background-color: #4d5ae5;
 }
 .team-member {
     background-color: #fff;
-    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 280px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -211,17 +208,11 @@ background-color: #4d5ae5;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 .portfolio-item {
     background-color: #f9f9f9;
-    padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 360px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
