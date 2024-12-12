@@ -174,8 +174,6 @@ background-color: #4d5ae5;
 .team-member {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    width: 280px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -213,7 +211,6 @@ background-color: #4d5ae5;
     color: #2e2f42;
 }
 .portfolio-list {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
@@ -221,7 +218,6 @@ background-color: #4d5ae5;
 .portfolio-item {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    width: 360px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
 }
